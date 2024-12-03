@@ -1,0 +1,20 @@
+experiments
+-----------
+why Nikitopulos' works: m-dim, square BUT sing < nrow = ncol:
+sq => Vk = v_sing as in 1-dim case
+maybe sing < nrow implies condition nrow < ncol satisfied
+
+(after s8(8x8) -> 0)
+min.sing7(7x8 submat) reduces s7(8x8) a little in best case
+                      incr. s8(8x8)
+to avoid cross-over, when s7,s8(8x8) close-by then use tniki:s7(8x8)
+overall very small convergence
+
+10/6/99
+reduce s7(7x8) by acting only on parameters of symmetric part
+after s8(8x8) -> 0: again, s7(8x8) not affected, may increase
+11/6/99
+observe that submat 2..7 cant reduce s6(7x7)
+whereas submat 1..6 reduces s6(7x7) rapidly
+coz 1st special?
+

@@ -1,0 +1,30 @@
+README file
+I.Emiris, NKUA
+Created 7/03
+Last modified 2010
+
+main function [newMat ...] = mconf(D,toler,flag)
+function NumV = violatebound(B,D,R);
+function [candMat, newSigma_k, iterCount, badpert] = svred(inpMat, R, toler) 
+
+% perturbations (+ basis)
+function pertEntr = permall(dim)
+function Entr = perbasis(boundmat,cond1,cond2)
+function nEntr = npermat(Entr,ro)
+function D = pertDmat(D,D1,ro,step)
+
+% utilities
+function B = triangle(B, P) % find bounds by triangular inequality
+function vecl = veclen(v,u)
+function mxBnd = maxbound(dim)	% ancillary function
+function Entr = permat(boundmat,cond1,cond2) % obsolete
+
+% inputs
+function B = bounds7exp()
+function B = bounds7()
+% proline65, bounds83: real-world data
+
+% euclidean coordinates & drawing
+drawmol(xyzMat); 
+xyzMat = embed(metMat);
+metMat = metric(disMat);
